@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google Maps Store Locator</title>
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+    <link rel="stylesheet" href="style/style.css"/> 
+</head>
+
+<body>
+    <div class="tittle">Store Locator</div>
+    <div class="search-container">
+        <div class="search">
+            <input id="zip-code-input" type="text" placeholder="Enter Zip Code"/>
+            <i class="fas fa-search" onclick="searchStores()"></i>
+        </div>
+    </div>
+    <div class="store-list-container">
+        <div class="stores-list">
+        </div>
+    </div>
+    <div id="map"></div>
+    </script>
+    <script src="js/store-data.js"></script>
+    <script src="js/index.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAmdPwfEMGsb0NXb1PgI_1IkfPz3Twae8&callback=initMap">
+    </script>
+    
+</body>
+
+</html>
