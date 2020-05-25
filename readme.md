@@ -1,4 +1,4 @@
-# Plan Of Action
+# Steps taken
 
 - Import Google Maps into the Window
 
