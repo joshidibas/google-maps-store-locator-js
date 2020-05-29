@@ -18,8 +18,6 @@
 
 - Open the info window of the marker on store selection in stores list 
 
-- Complete the styling for the marker info window
-
 - Allow a user to search for stores in a zip code
 
 - Add a beautiful transition on the hover of an individual store
