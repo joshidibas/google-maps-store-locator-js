@@ -21,3 +21,5 @@
 - Allow a user to search for stores in a zip code
 
 - Add a beautiful transition on the hover of an individual store
+
+- Change the default scrollbar along with the hover visibility
